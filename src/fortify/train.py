@@ -44,4 +44,4 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
     torch.save(model.state_dict(), "models/model.pth")
 
 if __name__ == "__main__":
-    train()
+    train(epochs=5)
