@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: fortify-assessment
+Version: 0.0.1
+Summary: MNIST classifier for internship applicatoin
+Author-email: jae <your@email.com>
+Keywords: machine learning,MLOps
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch==2.2.2
+Requires-Dist: torchaudio==2.2.2
+Requires-Dist: torchvision==0.17.2
+Provides-Extra: dev

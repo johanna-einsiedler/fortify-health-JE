@@ -1,0 +1,8 @@
+pyproject.toml
+requirements.txt
+src/fortify/data.py
+src/fortify_assessment.egg-info/PKG-INFO
+src/fortify_assessment.egg-info/SOURCES.txt
+src/fortify_assessment.egg-info/dependency_links.txt
+src/fortify_assessment.egg-info/requires.txt
+src/fortify_assessment.egg-info/top_level.txt
