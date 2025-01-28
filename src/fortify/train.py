@@ -1,13 +1,10 @@
-from fortify.data import load_data
-from fortify.model import MyAwesomeModel
 import torch
-from torch import nn
-from torchvision import datasets, transforms
-from torch import optim
+from model import MyAwesomeModel
+from torch import nn, optim
 from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
-import torch
-import typer
+from torchvision import datasets, transforms
+
+from data import load_data
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 

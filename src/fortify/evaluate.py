@@ -1,8 +1,11 @@
+import os
+
 import torch
 import typer
 from model import MyAwesomeModel
+
 from data import load_data
-import os
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 
 
